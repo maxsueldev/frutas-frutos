@@ -249,9 +249,18 @@ footer a {
     h2 {
         font-size: 28px;
     }
+    
+    header {
+        padding: 25px 40px;
+    }
+
+    main {
+        padding-top: 60px;
+    }
 
     .intro {
-        padding: 120px 0; 
+        background-attachment: local;
+        padding: 110px 0; 
     }
 
     .intro .titulo-intro {
@@ -304,6 +313,7 @@ footer a {
 
     header {
         justify-content: center;
+        padding: 25px 40px;
     }
 
     header .logo{
@@ -314,9 +324,14 @@ footer a {
         display: none;
     }
 
+    main {
+        padding-top: 60px;
+    }
+
     .intro {
         line-height: 52px;
-        padding: 100px 20px; 
+        background-attachment: local;
+        padding: 70px 20px; 
     }
 
     .intro .titulo-intro {
