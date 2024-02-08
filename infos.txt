@@ -1,0 +1,5 @@
+INFOS:    
+   fonts: pacifico, system-ui
+   backgrounds: #F8F9FA, #FFFFFF
+   colors: #18182E, #FFFFFF, #8B0000, #6C757D, #0B5ED7
+       
