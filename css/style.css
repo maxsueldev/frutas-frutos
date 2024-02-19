@@ -110,7 +110,6 @@ ul.list-navigation {
     max-width: 340px;
     border: 1px solid darkred;
     border-radius: 6px;
-    /* margin: 48px; */
     position: relative;
 }
 
@@ -181,7 +180,7 @@ footer a {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 1196px) {
+@media (min-width: 1025px) and (max-width: 1280px) {   /* some Desktops, Laptops */
     h2 {
         font-size: 36px;
     }
@@ -245,7 +244,7 @@ footer a {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 959px) { /* Tablet */
+@media (min-width: 768px) and (max-width: 1024px){ /* Tablet */
     h2 {
         font-size: 28px;
     }
@@ -265,6 +264,10 @@ footer a {
 
     .intro .titulo-intro {
         font-size: 46px;
+    }
+
+    .titulo-receitas {
+        padding: 40px;
     }
 
     .itens-receitas ul {
@@ -290,10 +293,15 @@ footer a {
     .text-receitas p {
         font-size: 14px;
         line-height: 22px;
+        margin: 12px 0 30px 0;
     }
     
     .text-receitas a {
         font-size: 12px;
+    }
+
+    .quem-somos {
+        padding: 40px;
     }
     
     .quem-somos h2 {
@@ -303,9 +311,13 @@ footer a {
     .titulo-receitas p, .quem-somos p {
         font-size: 16px;
     }
+
+    footer {
+        font-size: 16px;
+    } 
 }
 
-@media only screen and (max-width: 767px) { /* Smartphone */
+@media (max-width: 767px) { /* Smartphone */
     h2 {
         font-size: 24px;
         line-height: 32px;
@@ -339,10 +351,22 @@ footer a {
         font-weight: 400;
     }
 
+    .titulo-receitas {
+        padding: 40px;
+    }
+
     .titulo-receitas p {
         line-height: 24px;
         margin-top: 18px;
     }
+
+    .itens-receitas ul {
+        gap: 30px;
+    }
+
+    .itens-receitas ul li {
+        max-width: 200px;
+    } 
     
     .itens-receitas img {
         height: 180px;
@@ -359,10 +383,15 @@ footer a {
     .text-receitas p {
         font-size: 14px;
         line-height: 22px;
+        margin: 12px 0 30px 0;
     }
     
     .text-receitas a {
         font-size: 12px;
+    }
+
+    .quem-somos {
+        padding: 40px;
     }
     
     .quem-somos h2 {
@@ -370,6 +399,10 @@ footer a {
     }
     
     .titulo-receitas p, .quem-somos p {
+        font-size: 16px;
+    }
+
+    footer {
         font-size: 16px;
     }
 }
