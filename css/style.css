@@ -107,7 +107,7 @@ ul.list-navigation {
 }
 
 .itens-receitas ul li {
-    max-width: 340px;
+    width: 30%;
     border: 1px solid darkred;
     border-radius: 6px;
     position: relative;
@@ -201,10 +201,6 @@ footer a {
         gap: 25px;
     }
 
-    .itens-receitas ul li {
-        max-width: 270px;
-    }   
-    
     .itens-receitas img {
         height: 220px;
     }
@@ -273,10 +269,6 @@ footer a {
     .itens-receitas ul {
         gap: 30px;
     }
-
-    .itens-receitas ul li {
-        max-width: 200px;
-    }   
     
     .itens-receitas img {
         height: 180px;
@@ -365,7 +357,7 @@ footer a {
     }
 
     .itens-receitas ul li {
-        max-width: 200px;
+        width: 250px;
     } 
     
     .itens-receitas img {
